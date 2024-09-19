@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AWS", "AWS", "{82B972E5-9381-46C1-B5CA-8422CF18A773}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jcfvsouz.Components.AWS.SecretsManager.Option", "jcfvsouz.Components.AWS.SecretsManager.Option\jcfvsouz.Components.AWS.SecretsManager.Option.csproj", "{4B2A7B23-107E-4FE4-8AE8-86503426D69E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jcfvsouz.Components.AWS.SecretsManager.Option.Sample", "jcfvsouz.Components.AWS.SecretsManager.Option.Sample\jcfvsouz.Components.AWS.SecretsManager.Option.Sample.csproj", "{C491C9E9-8305-477E-AFE3-D9115C3C1BE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{174CEB08-0A09-43CE-B3E2-E6B50D9E2907}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GCP", "GCP", "{EBFF84D4-856E-4DFA-8A51-C4426874B527}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cloud", "Cloud", "{2B250174-391B-406F-8D3B-3FF06A5517D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jcfvsouz.Components.GCP.SecretManager.Option", "jcfvsouz.Components.GCP.SecretManager.Option\jcfvsouz.Components.GCP.SecretManager.Option.csproj", "{9E6E553B-53AC-441A-B09B-3002660D51F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jcfvsouz.Components.Cloud.SecretsManager.Option", "jcfvsouz.Components.Cloud.SecretsManager.Option\jcfvsouz.Components.Cloud.SecretsManager.Option.csproj", "{B6AB109F-7705-4EBD-929E-5F3DDF98818A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jcfvsouz.Components.GCP.SecretManager.Option.Sample", "jcfvsouz.Components.GCP.SecretManager.Option.Sample\jcfvsouz.Components.GCP.SecretManager.Option.Sample.csproj", "{922D8C98-17E5-408D-A949-67BAEF72D1CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jcfvsouz.Components.Azure.KeyVault.Option", "jcfvsouz.Components.Azure.KeyVault.Option\jcfvsouz.Components.Azure.KeyVault.Option.csproj", "{E6C590F0-754F-4CB4-9148-4DAECD43F3E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jcfvsouz.Components.Azure.KeyVault.Option.Sample", "jcfvsouz.Components.Azure.KeyVault.Option.Sample\jcfvsouz.Components.Azure.KeyVault.Option.Sample.csproj", "{795A7B31-8B17-479F-AA8E-3406F5ABFE76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jcfvsouz.Components.Cloud.SecretsManager.Option.Tests", "jcfvsouz.Components.Cloud.SecretsManager.Option.Tests\jcfvsouz.Components.Cloud.SecretsManager.Option.Tests.csproj", "{61200800-F138-4DDF-A0C9-733BEEEB2534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jcfvsouz.Components.ApplicationBuilder", "jcfvsouz.Components.ApplicationBuilder\jcfvsouz.Components.ApplicationBuilder.csproj", "{70951808-0913-4599-8F18-FD7E43FFA6A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jcfvsouz.Components.ApplicationBuilder.Sample", "jcfvsouz.Components.ApplicationBuilder.Sample\jcfvsouz.Components.ApplicationBuilder.Sample.csproj", "{D4D95104-31D7-4F75-A1FF-E355C522E042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B2A7B23-107E-4FE4-8AE8-86503426D69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2A7B23-107E-4FE4-8AE8-86503426D69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2A7B23-107E-4FE4-8AE8-86503426D69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2A7B23-107E-4FE4-8AE8-86503426D69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C491C9E9-8305-477E-AFE3-D9115C3C1BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C491C9E9-8305-477E-AFE3-D9115C3C1BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C491C9E9-8305-477E-AFE3-D9115C3C1BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C491C9E9-8305-477E-AFE3-D9115C3C1BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6E553B-53AC-441A-B09B-3002660D51F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6E553B-53AC-441A-B09B-3002660D51F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6E553B-53AC-441A-B09B-3002660D51F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6E553B-53AC-441A-B09B-3002660D51F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6AB109F-7705-4EBD-929E-5F3DDF98818A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6AB109F-7705-4EBD-929E-5F3DDF98818A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6AB109F-7705-4EBD-929E-5F3DDF98818A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6AB109F-7705-4EBD-929E-5F3DDF98818A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{922D8C98-17E5-408D-A949-67BAEF72D1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922D8C98-17E5-408D-A949-67BAEF72D1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922D8C98-17E5-408D-A949-67BAEF72D1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922D8C98-17E5-408D-A949-67BAEF72D1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C590F0-754F-4CB4-9148-4DAECD43F3E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C590F0-754F-4CB4-9148-4DAECD43F3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C590F0-754F-4CB4-9148-4DAECD43F3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C590F0-754F-4CB4-9148-4DAECD43F3E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795A7B31-8B17-479F-AA8E-3406F5ABFE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795A7B31-8B17-479F-AA8E-3406F5ABFE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795A7B31-8B17-479F-AA8E-3406F5ABFE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795A7B31-8B17-479F-AA8E-3406F5ABFE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61200800-F138-4DDF-A0C9-733BEEEB2534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61200800-F138-4DDF-A0C9-733BEEEB2534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61200800-F138-4DDF-A0C9-733BEEEB2534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61200800-F138-4DDF-A0C9-733BEEEB2534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70951808-0913-4599-8F18-FD7E43FFA6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70951808-0913-4599-8F18-FD7E43FFA6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70951808-0913-4599-8F18-FD7E43FFA6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70951808-0913-4599-8F18-FD7E43FFA6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D95104-31D7-4F75-A1FF-E355C522E042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D95104-31D7-4F75-A1FF-E355C522E042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D95104-31D7-4F75-A1FF-E355C522E042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D95104-31D7-4F75-A1FF-E355C522E042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82B972E5-9381-46C1-B5CA-8422CF18A773} = {2B250174-391B-406F-8D3B-3FF06A5517D4}
+		{4B2A7B23-107E-4FE4-8AE8-86503426D69E} = {82B972E5-9381-46C1-B5CA-8422CF18A773}
+		{C491C9E9-8305-477E-AFE3-D9115C3C1BE0} = {82B972E5-9381-46C1-B5CA-8422CF18A773}
+		{174CEB08-0A09-43CE-B3E2-E6B50D9E2907} = {2B250174-391B-406F-8D3B-3FF06A5517D4}
+		{EBFF84D4-856E-4DFA-8A51-C4426874B527} = {2B250174-391B-406F-8D3B-3FF06A5517D4}
+		{9E6E553B-53AC-441A-B09B-3002660D51F7} = {EBFF84D4-856E-4DFA-8A51-C4426874B527}
+		{B6AB109F-7705-4EBD-929E-5F3DDF98818A} = {2B250174-391B-406F-8D3B-3FF06A5517D4}
+		{922D8C98-17E5-408D-A949-67BAEF72D1CA} = {EBFF84D4-856E-4DFA-8A51-C4426874B527}
+		{E6C590F0-754F-4CB4-9148-4DAECD43F3E8} = {174CEB08-0A09-43CE-B3E2-E6B50D9E2907}
+		{795A7B31-8B17-479F-AA8E-3406F5ABFE76} = {174CEB08-0A09-43CE-B3E2-E6B50D9E2907}
+		{61200800-F138-4DDF-A0C9-733BEEEB2534} = {2B250174-391B-406F-8D3B-3FF06A5517D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF3A1F84-A6B4-42D0-8650-2B5E755ED5F4}
+	EndGlobalSection
+EndGlobal
